@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
 @Path("/users")
-public class User {
+public class Users {
 
 	@GET
 	@Produces("application/xml")
